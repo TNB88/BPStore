@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Phim 4K",
+      "apps": [
+        {
+          "name": "Phim4K",
+          "version": "9.5.7",
+          "apk": "Phim4K.apk",
+          "banner": "phim4k-banner.jpg",
+          "icon": "phim4k.png",
+          "description": "Phim4K - kho phim 4K, phim le, phim bo va giai tri cho BPStore. Bam Tai ve de cai dat APK moi nhat.",
+          "screenshots": [
+            "phim4k-banner.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}
