@@ -196,9 +196,8 @@ async function assetResponse(request, env, assetPath, extraHeaders = {}) {
 }
 
 function textResponse(body, init = {}) {
-  const status = init.status || 200;
-  const headers = new Headers(init);
-  headers.delete("status");
+  const { status = 200, ...headerInit } = init;
+  const headers = new Headers(headerInit);
   if (!headers.has("content-type")) headers.set("content-type", "text/plain; charset=utf-8");
   headers.set("access-control-allow-origin", "*");
   headers.set("x-bpstore-worker", "1");
