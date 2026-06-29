@@ -1,4 +1,4 @@
-const RAW_BASE = "https://raw.githubusercontent.com/TNB88/BPStore/refs/heads/main";
+const RAW_BASE = "https://raw.githubusercontent.com/TNB88/BPStore/main";
 
 async function fetchJson(path) {
   const response = await fetch(`${RAW_BASE}/${path}`, {

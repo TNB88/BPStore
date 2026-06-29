@@ -22,9 +22,9 @@ Kho APK rieng cho app store cua Binh Pro.
 ## Link raw mau
 
 ```text
-https://raw.githubusercontent.com/TNB88/BPStore/refs/heads/main/apps.json
-https://raw.githubusercontent.com/TNB88/BPStore/refs/heads/main/repo.json
-https://raw.githubusercontent.com/TNB88/BPStore/refs/heads/main/apks/TenApp.apk
+https://raw.githubusercontent.com/TNB88/BPStore/main/apps.json
+https://raw.githubusercontent.com/TNB88/BPStore/main/repo.json
+https://raw.githubusercontent.com/TNB88/BPStore/main/apks/TenApp.apk
 ```
 
 ## Ghi chu
