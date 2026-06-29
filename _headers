@@ -3,21 +3,26 @@
   Cache-Control: public, max-age=60
 
 /ap/apps
-  Content-Type: application/json; charset=utf-8
+  Content-Type: application/vnd.android.package-archive
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
+
+/ap/app-list
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
+
+/ap/descriptions
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/ap/images/*
+  Content-Type: image/jpeg
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
 
 /ap/apps.json
-  Content-Type: application/json; charset=utf-8
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=60
-
-/ap/apps.php
-  Content-Type: application/json; charset=utf-8
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=60
-
-/ap/index.php
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
@@ -33,17 +38,17 @@
   Cache-Control: public, max-age=60
 
 /ap/*
-  Content-Type: application/json; charset=utf-8
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
 
 /ap
-  Content-Type: application/json; charset=utf-8
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
 
 /ap/
-  Content-Type: application/json; charset=utf-8
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
 
