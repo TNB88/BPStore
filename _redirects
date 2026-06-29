@@ -5,10 +5,6 @@
 /listapp.json /danhsachapp/listapp.json 200
 /ap /ap/app-list 200
 /ap/ /ap/app-list 200
-/ap/app-list /ap/app-list 200
-/ap/apps /apks/Phim4K.apk 200
-/ap/descriptions /ap/descriptions.txt 200
-/ap/images/* /banners/phim4k-banner.jpg 200
 /ap/api/apps /ap/app-list 200
 /ap/listapp /ap/listapp.json 200
 /ap/danhsachapp/listapp.json /ap/listapp.json 200
@@ -17,4 +13,3 @@
 /ap/apks/* /apks/:splat 302
 /ap/icons/* /icons/:splat 302
 /ap/banners/* /banners/:splat 302
-/ap/* /ap/app-list 200

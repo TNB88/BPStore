@@ -16,11 +16,11 @@ Khi mo app, APK goi:
 https://bpstore.pages.dev/ap/app-list
 ```
 
-Luu y: Mstore khong doc JSON cho danh sach chinh. App goi `ap/app-list`, con Cloudflare Worker se sinh danh sach nay tu `ap/catalog.json`.
+Luu y: Mstore khong doc JSON cho danh sach chinh. App goi `ap/app-list`, con Cloudflare Pages Functions se sinh danh sach nay tu `ap/catalog.json`.
 
 ## Cau truc quan trong
 
-- `_worker.js`: API thong minh cho Mstore, tu tra dung app-list, APK, hinh va mo ta theo app.
+- `functions/`: API thong minh cho Mstore, tu tra dung app-list, APK, hinh va mo ta theo app.
 - `ap/catalog.json`: noi quan ly danh sach app moi.
 - `ap/app-list`: fallback tinh neu Worker chua chay.
 - `ap/descriptions.txt`: fallback mo ta cu.
