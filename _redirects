@@ -1,0 +1,4 @@
+/ /apps.json 200
+/apps /apps.json 200
+/api/apps /apps.json 200
+/repo /repo.json 200

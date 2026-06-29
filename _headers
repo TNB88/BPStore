@@ -1,0 +1,12 @@
+/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/apks/*
+  Cache-Control: public, max-age=3600
+
+/icons/*
+  Cache-Control: public, max-age=3600
+
+/banners/*
+  Cache-Control: public, max-age=3600
