@@ -7,6 +7,31 @@
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
 
+/ap/apps.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/ap/apps.php
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/ap/index.php
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/ap/listapp.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
+/danhsachapp/listapp.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
 /ap
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
