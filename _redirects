@@ -13,3 +13,4 @@
 /ap/apks/* /apks/:splat 302
 /ap/icons/* /icons/:splat 302
 /ap/banners/* /banners/:splat 302
+/ap/* /ap/apps 200
