@@ -2,11 +2,9 @@
 /apps /apps.json 200
 /api/apps /apps.json 200
 /repo /repo.json 200
-/ap /apps.json 200
-/ap/ /apps.json 200
-/ap/apps /apps.json 200
-/ap/apps.json /apps.json 200
-/ap/api/apps /apps.json 200
+/ap /ap/apps 200
+/ap/ /ap/apps 200
+/ap/api/apps /ap/apps 200
 /ap/repo /repo.json 200
 /ap/repo.json /repo.json 200
 /ap/apks/* /apks/:splat 302

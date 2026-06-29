@@ -2,6 +2,11 @@
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=60
 
+/ap/apps
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=60
+
 /apks/*
   Cache-Control: public, max-age=3600
 
