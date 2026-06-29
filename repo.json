@@ -1,6 +1,31 @@
 {
   "name": "BPStore",
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-06-29",
-  "apps": []
+  "apps": [
+    {
+      "id": "phim4k",
+      "name": "Phim4K",
+      "title": "Phim4K",
+      "package": "com.oxootv.spagreen",
+      "packageName": "com.oxootv.spagreen",
+      "version": "9.5.7",
+      "versionName": "9.5.7",
+      "versionCode": 997,
+      "category": "Phim",
+      "description": "Ung dung xem phim 4K, phim le, phim bo va noi dung giai tri.",
+      "apk": "apks/Phim4K.apk",
+      "apkUrl": "https://bpstore.pages.dev/apks/Phim4K.apk",
+      "downloadUrl": "https://bpstore.pages.dev/apks/Phim4K.apk",
+      "icon": "icons/phim4k.png",
+      "iconUrl": "https://bpstore.pages.dev/icons/phim4k.png",
+      "image": "https://bpstore.pages.dev/icons/phim4k.png",
+      "banner": "banners/phim4k-banner.jpg",
+      "bannerUrl": "https://bpstore.pages.dev/banners/phim4k-banner.jpg",
+      "size": 14206957,
+      "fileSize": 14206957,
+      "sha256": "3B0B96728B81207E53144C537F42054C1FDDA25DB748CC745BD17BEF14731A90",
+      "updatedAt": "2026-06-29"
+    }
+  ]
 }
