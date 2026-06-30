@@ -9,9 +9,20 @@
           "apk": "Phim4K.apk",
           "banner": "phim4k-banner.jpg",
           "icon": "phim4k.png",
-          "description": "Phim4K - kho phim 4K, phim lẻ, phim bộ và giải trí cho BPStore. Bấm Tải và cài đặt apk mới nhất.",
+          "description": "Phim4K - kho phim 4K, phim lẻ, phim bộ và giải trí cho BPStore. Bấm Tải và cài đặt APK mới nhất.",
           "screenshots": [
             "phim4k-banner.jpg"
+          ]
+        },
+        {
+          "name": "PhimNe",
+          "version": "4.1.4",
+          "apk": "PhimNe_4.1.4.apk",
+          "banner": "phimne-banner.png",
+          "icon": "phimne.webp",
+          "description": "PhimNe - ứng dụng xem phim giải trí, phim lẻ, phim bộ. Bấm Tải và cài đặt APK mới nhất.",
+          "screenshots": [
+            "phimne-banner.jpg"
           ]
         }
       ]
@@ -23,11 +34,11 @@
           "name": "Quang TV",
           "version": "4.5",
           "apk": "QuangTV4.apk",
-          "banner": "QuangTV4-banner.jpg",
+          "banner": "QuangTV4-banner.png",
           "icon": "QuangTV4.png",
-          "description": "Ung dung xem Truyền Hình IPTV Quang TV. Bam Tai ve de cai dat.",
+          "description": "Ứng dụng xem Truyền Hình IPTV Quang TV. Bấm Tải và cài đặt APK mới nhất.",
           "screenshots": [
-            "QuangTV4-banner.jpg"
+            "QuangTV4-banner.png"
           ]
         }
       ]
