@@ -6,7 +6,10 @@ export async function onRequestGet({ request }) {
     const app = findRequestedApp(request, catalog);
     if (!app) return textResponse("Image not found", { status: 404 });
 
-    return staticAsset(request, pickImagePath(request, app), {
+    const imagePath = pickImagePath(request, app);
+    if (!imagePath) return textResponse("Image not found", { status: 404 });
+
+    return staticAsset(request, imagePath, {
       "cache-control": "public, max-age=3600"
     });
   } catch (error) {

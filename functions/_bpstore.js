@@ -67,6 +67,7 @@ export function pickImagePath(request, app) {
     const index = Number(screenshotMatch[1]);
     const screenshots = app.screenshots || [];
     if (screenshots[index]) return `/banners/${screenshots[index]}`;
+    return null;
   }
 
   if (app.banner) return `/banners/${app.banner}`;
