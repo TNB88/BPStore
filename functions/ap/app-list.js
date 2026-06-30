@@ -4,7 +4,7 @@ export async function onRequestGet({ request }) {
   try {
     const catalog = await loadCatalog(request);
     return textResponse(buildAppList(catalog), {
-      "content-type": "application/octet-stream",
+      "content-type": "text/plain; charset=utf-8",
       "banner": "0",
       "cache-control": "public, max-age=60"
     });
