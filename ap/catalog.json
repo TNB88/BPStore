@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Truyền Hình",
+      "name": "Phim Ảnh",
       "apps": [
         {
           "name": "Phim4K",
@@ -9,7 +9,7 @@
           "apk": "Phim4K.apk",
           "banner": "phim4k-banner.jpg",
           "icon": "phim4k.png",
-          "description": "Phim4K - kho phim 4K, phim le, phim bo va giai tri cho BPStore. Bam Tai ve de cai dat APK moi nhat.",
+          "description": "Phim4K - kho phim 4K, phim lẻ, phim bộ và giải trí cho BPStore. Bấm Tải và cài đặt apk mới nhất.",
           "screenshots": [
             "phim4k-banner.jpg"
           ]
