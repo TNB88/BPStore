@@ -56,3 +56,13 @@ https://bpstore.pages.dev/ap/app-list
 Nếu thấy app mới hiện trong dòng text là được. Mở BPStore lại sẽ thấy app mới.
 
 11:53 AM
+
+
+
+
+
+
+cd "C:\Users\Admin\Documents\GitHub\BPStore"
+git add .
+git commit -m "Cap nhat BPStore"
+git push
