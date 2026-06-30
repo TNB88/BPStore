@@ -1,0 +1,58 @@
+Ok bạn già, quy trình up app mới vào BPStore từ đầu như này:
+
+Chép file APK vào thư mục:
+C:\Users\Admin\Documents\GitHub\BPStore\apks
+Ví dụ:
+
+C:\Users\Admin\Documents\GitHub\BPStore\apks\TenApp.apk
+Chép banner vào:
+C:\Users\Admin\Documents\GitHub\BPStore\banners
+Ví dụ:
+
+C:\Users\Admin\Documents\GitHub\BPStore\banners\tenapp-banner.jpg
+Chép icon vào:
+C:\Users\Admin\Documents\GitHub\BPStore\icons
+Ví dụ:
+
+C:\Users\Admin\Documents\GitHub\BPStore\icons\tenapp.png
+Mở file:
+C:\Users\Admin\Documents\GitHub\BPStore\ap\catalog.json
+Thêm app mới vào mục apps, ví dụ:
+
+{
+  "name": "TenApp",
+  "version": "1.0",
+  "apk": "TenApp.apk",
+  "banner": "tenapp-banner.jpg",
+  "icon": "tenapp.png",
+  "description": "Mo ta ngan gon hien trong BPStore.",
+  "screenshots": [
+    "tenapp-banner.jpg"
+  ]
+}
+Nếu muốn tạo mục mới, thêm một khối category:
+
+{
+  "name": "Giai tri",
+  "apps": [
+    {
+      "name": "TenApp",
+      "version": "1.0",
+      "apk": "TenApp.apk",
+      "banner": "tenapp-banner.jpg",
+      "icon": "tenapp.png",
+      "description": "Mo ta ngan gon hien trong BPStore.",
+      "screenshots": ["tenapp-banner.jpg"]
+    }
+  ]
+}
+Push lên GitHub:
+cd "C:\Users\Admin\Documents\GitHub\BPStore"
+git add .
+git commit -m "Add TenApp"
+git push
+Đợi Cloudflare Pages deploy xong, rồi test link:
+https://bpstore.pages.dev/ap/app-list
+Nếu thấy app mới hiện trong dòng text là được. Mở BPStore lại sẽ thấy app mới.
+
+11:53 AM

@@ -15,6 +15,22 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Truyền Hình",
+      "apps": [
+        {
+          "name": "Quang TV",
+          "version": "4.5",
+          "apk": "QuangTV4.apk",
+          "banner": "QuangTV4-banner.jpg",
+          "icon": "QuangTV4.png",
+          "description": "Ung dung xem Truyền Hình IPTV Quang TV. Bam Tai ve de cai dat.",
+          "screenshots": [
+            "QuangTV4-banner.jpg"
+          ]
+        }
+      ]
     }
   ]
 }
